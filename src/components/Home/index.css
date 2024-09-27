@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+.home-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.home-img {
+  width: 150px;
+}
+@media (max-width: 575px) {
+  home-head {
+    font-size: 48px;
+  }
+}
+.home-head {
+  font-family: 'Roboto';
+  font-size: 56px;
+  font-weight: 500;
+  color: #6d396b;
+}

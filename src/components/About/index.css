@@ -1,0 +1,28 @@
+/* Write your CSS code here */
+.about-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.abt-img {
+  width: 150px;
+}
+@media (min-width: 576px) {
+  .abt-head {
+    font-size: 48px;
+  }
+}
+.abt-head {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  color: #6d396b;
+}
+.abt-para {
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 20px;
+  color: #555555;
+}
